@@ -1,6 +1,9 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    background-color: black;
+    color: white;
 }
 
 * {
@@ -11,13 +14,81 @@ body {
     margin: 0;
 }
 
-.home {
-    background-color: black;
-    color: white;
-}
-
 .row:after {
     content: "";
     display: table;
     clear: both;
+}
+
+
+/*class*/
+
+.classic {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/*Buttons*/
+
+#butt1 {
+    background-color: cyan;
+    border: none;
+    padding: 7.5px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+    color: black;
+}
+
+#butt2 {
+    background-color: orange;
+    border: none;
+    padding: 7.5px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+#butt3 {
+    background-color: red;
+    border: none;
+    padding: 7.5px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+    color: white;
+}
+
+#butt4 {
+    background-color: rgb(0, 198, 0);
+    border: none;
+    padding: 7.5px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+    color: white;
+}
+
+#butt5 {
+    background-color: white;
+    border: none;
+    padding: 7.5px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+
+/*appname*/
+
+#appname {
+    font-family: 'Homemade Apple', cursive;
 }
